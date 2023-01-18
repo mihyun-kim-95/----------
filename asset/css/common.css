@@ -1,0 +1,67 @@
+body{
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    color: #222;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.inner{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.inner .title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+.footer .group-bottom .inquiry-area::before,
+.sc-update .link-more::after,
+.inner2 .link-more::after,
+.sc-service .link-more::after,
+.header .search-area .btn-submit::after,
+.header .logo::before{
+    background-image: url(../images/sp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.sc-visual .slide2 .title::before,
+.sc-visual .slide1 .title::before{
+    background-image: url(../images/main_slide/icon.png);
+    background-repeat: no-repeat;
+}
+
+.sc-service a::before{
+    background-image: url(../images/service.png);
+    background-repeat: no-repeat;
+    background-size: 1200px 60px;
+}
+
+
+.inner3 .link-sns::before{
+    background-image: url(../images/seoul_sns.png);
+    background-repeat: no-repeat;
+}
+
+
+.footer .sns-list .sns:hover::after,
+.footer .sns-list .sns::after{
+    background-image: url(../images/footer-sns.png);
+    background-repeat: no-repeat;
+}
